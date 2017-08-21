@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    dexOptions {
+        preDexLibraries true
+        maxProcessCount 8
+        // Instead of setting the heap size for the DEX process, increase Gradle's
+        // heap size to enable dex-in-process. To learm more, read the next section.
+        // javaMaxHeapSize "2048m"
+    }
+
+    defaultConfig {
+        applicationId "menu.ctagro.cmini.pis.ctamsmobilemenu"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 3
+        versionName "1.4"
+    }
+    buildTypes {
+        debug{
+            ext.alwaysUpdateBuildId = false
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+    productFlavors {
+        dev {
+            minSdkVersion 22
+            versionNameSuffix '-dev'
+            applicationIdSuffix '.dev'
+            resConfigs "en", "xxhdpi"
+        }
+        prod {
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    //testCompile 'junit:junit:4.12'
+    compile files('libs/ksoap2-android-assembly-3.6.1-jar-with-dependencies.jar')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //Stetho (DB Check)
+    compile 'com.facebook.stetho:stetho:1.5.0'
+}
