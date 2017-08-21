@@ -1,5 +1,5 @@
 # mobileapps-ctams
-This is application for CTAMS Mobile  
+This is application for CTAMS Mobile Apps
 
 This code is prototype for mobile application CTAMS Mobile Apps
 that use MVC Concept 
