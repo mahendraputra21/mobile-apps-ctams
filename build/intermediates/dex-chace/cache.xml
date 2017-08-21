@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\project\Android\CT AGRO\CT AGRO MOBILE APPS (CMA)\CTAMSMobileMenu\app\build\intermediates\incremental-classes\dev\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c453d8c3cc653da18fa64df333da2f9e4f8e0eb">
+        <dex dex="D:\project\Android\CT AGRO\CT AGRO MOBILE APPS (CMA)\CTAMSMobileMenu\app\build\intermediates\transforms\dex\dev\debug\folders\1000\10000\instant-run-bootstrap_0cb923f8cc5d551e5e1761d0d47821fbe63cc6dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\project\Android\CT AGRO\CT AGRO MOBILE APPS (CMA)\CTAMSMobileMenu\app\libs\ksoap2-android-assembly-3.6.1-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b37dc43b673256709b75daab4850b0c017459ec6">
+        <dex dex="D:\project\Android\CT AGRO\CT AGRO MOBILE APPS (CMA)\CTAMSMobileMenu\app\build\intermediates\transforms\dex\dev\debug\folders\1000\2\ksoap2-android-assembly-3.6.1-jar-with-dependencies_8a4fda2674cbaffd588d6299d954193162cee687\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\project\Android\CT AGRO\CT AGRO MOBILE APPS (CMA)\CTAMSMobileMenu\app\build\intermediates\incremental-runtime-classes\dev\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="D:\project\Android\CT AGRO\CT AGRO MOBILE APPS (CMA)\CTAMSMobileMenu\app\build\intermediates\transforms\dex\dev\debug\folders\1000\10000\instant-run_d4abe72f789c846a16e380e627466348e68951a6\classes.dex" />
+    </item>
+
+</items>
