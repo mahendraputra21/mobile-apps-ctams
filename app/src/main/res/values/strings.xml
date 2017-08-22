@@ -1,0 +1,56 @@
+<resources>
+        <string name="app_name">CMA</string>
+        <string name="app_version_name">Version 1.3</string>
+        <string name="default_ws">http://ctams.ctagroindonesia.com:9091</string>
+
+
+    <!--<activity_device_not_found>-->
+        <string name="activity_device_not_found_textInfo">Device Tidak Terdaftar, Silakan Hubungi Tim IT</string>
+        <string name="activity_device_not_found_textIMEI">xxx</string>
+        <string name="activity_device_not_found_btnRegister">Register</string>
+    <!--<activity_device_not_found>-->
+   <!-- <activity_login>-->
+        <string name="login_text_sync_to_mobile">Sync To Mobile</string>
+        <string name="login_text_btn">Login</string>
+        <string name="login_text_footer">Powered By PT Kaltim CT Agro</string>
+        <string name="login_text_username_hint">Username</string>
+        <string name="login_text_password_hint">Password</string>
+    <!--</activity_login>-->
+    <!--<activity_no_internet_connection>-->
+        <string name="activity_no_internet_connection_textInfo">Silakan Cek Koneksi Internet Anda</string>
+        <string name="activity_no_internet_connection_textInfo2">Tidak Ada Koneksi Internet</string>
+    <!--</activity_no_internet_connection>-->
+    <!--<activity_spalsh_screen>-->
+        <string name="activity_splash_screen_txtInfo">info</string>
+    <!--</activity_spalsh_screen>-->
+    <!--<activity_sync_to_mobile>-->
+        <string name="activity_sync_to_mobile_txtInfo">Tunggu...</string>
+    <!--</activity_sync_to_mobile>-->
+
+
+
+
+
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>About Us</item>
+    </string-array>
+
+        <string name="action_settings">Settings</string>
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+        <string name="openDrawer">open_drawer</string>
+        <string name="closeDrawer">close_drawer</string>
+
+        <!-- Navigation Drawer menu labels -->
+        <string name="nav_home">Home</string>
+        <string name="nav_about_us">About</string>
+
+        <string name="activity_title_about_us">About Us</string>
+        <string name="activity_title_privacy_policy">Privacy Policy</string>
+        <string name="action_clear_all">Clear All</string>
+        <string name="action_logout">Logout</string>
+        <string name="action_mark_all_read">Mark All as Read</string>
+        <string name="action_monitoringPA">Monitoring PA</string>
+
+</resources>
