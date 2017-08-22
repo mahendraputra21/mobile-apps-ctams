@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="menu.ctagro.cmini.pis.ctamsmobilemenu"
+    android:versionCode="2"
+    android:versionName="@string/app_version_name">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ctams_mobile_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity android:name=".View.SplashScreen">
+
+        </activity>
+
+        <activity android:name=".View.SettingServer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".View.home_new"
+            android:screenOrientation="portrait"
+            android:label="Menu Utama CMA">
+
+            <intent-filter>
+                <action android:name="pis.cmini.ctagro.menu.MENU_CTAMS_MOBILE_APPS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity android:name=".View.device_not_found"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+
+        <activity android:name=".View.login"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".View.no_internet_connection"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name=".View.SyncToMobile"
+            android:label="Sync To Mobile"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+
+        <activity android:name=".Controller.CT_Exception"
+            android:label="CT Exception "
+            />
+
+
+    </application>
+
+</manifest>
